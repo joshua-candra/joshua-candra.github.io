@@ -59,6 +59,7 @@ footer a:hover {}
 /* Horizontal Rules */
 hr {
     border: double;
+    border-width: thick;
     width: 95%;
 }
 
@@ -95,7 +96,6 @@ ul {
     font-size: 17px;
     list-style: square;
     list-style-position: inside;
-    margin: 15px;
 }
 
 dl {
