@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    background-color: #727C96;
+    color: #fffafa;
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: #889BC9;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {
+    background-color: #555A86;
+    padding: 1px;
+    text-align: center;
+}
+
+.splash h1 {
+    color: #FFE4E1;
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.splash img {
+    border-radius: 50%;
+}
+
+.splash p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Horizontal Rules */
+hr {
+    border: double;
+    width: 95%;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    color: #FFE4E1;
+    font-family: 'Tinos';
+    margin: 15px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    margin: 15px;
+}
+
+/* link styles */
+section a {
+    color: lightpink;
+    text-decoration: none;
+}
+section a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+/* List Styles */
+ul {
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    list-style: square;
+    list-style-position: inside;
+    margin: 15px;
+}
+
+dl {
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin: 15px;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid lightgray;
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+form {
+    display: grid;
+    gap: 5px;
+}
+
+form input, form textarea {
+    background-color: seashell;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    box-shadow: 0 0 5px;
+}
+
+form button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: lightgray;
+}
